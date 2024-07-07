@@ -1,0 +1,37 @@
+.info {
+    display: flex;
+    justify-content: left;
+}
+
+.box-left {
+    flex-basis: 40%;
+    position: sticky;
+    top: 13px;
+    align-self: flex-start;
+}
+
+.box-right {
+    flex-basis: 40%;
+    position: sticky;
+    top: 13px;
+    align-self: flex-start;
+}
+
+.box-right span {
+    display: block;
+    border-top: 1px dotted #ddd;
+    padding: 5px 0;
+}
+.price {
+    color: red;
+    font-size: 30px;
+}
+
+.is-divider {
+    height: 3px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 1em 0;
+    width: 100%;
+    max-width: 30px;
+}
